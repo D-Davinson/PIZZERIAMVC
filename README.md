@@ -25,5 +25,6 @@ Differents ActionListnerer for Buttons
 
 
 ### Authors
-[@D-Davinson](https://www.github.com/D-Davinson)
-[@Exau17](https://www.github.com/Exau17)
+ [@D-Davinson](https://www.github.com/D-Davinson)
+ 
+ [@Exau17](https://www.github.com/Exau17)
