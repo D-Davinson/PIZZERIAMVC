@@ -86,9 +86,9 @@ public class GUI_Commande extends JFrame implements ActionListener {
 		       
 		        
 		     // JComboBox
-		        comboBox1.setFocusable(false); // retire le carré 
+		        comboBox1.setFocusable(false); // retire le carrï¿½ 
 		        comboBox2.setFocusable(false);
-		        comboBox1.setForeground(Color.black); // couleur écriture boutton
+		        comboBox1.setForeground(Color.black); // couleur ï¿½criture boutton
 		        comboBox1.setFont(new Font ("Cooper Black",Font.ITALIC,18));
 		        comboBox1.setBackground(Color.WHITE);// couleur boutton
 		        comboBox2.setForeground(Color.black);
@@ -120,7 +120,7 @@ public class GUI_Commande extends JFrame implements ActionListener {
 					    
 				
 				        
-				        // JPanel première grille
+				        // JPanel premiï¿½re grille
 				        
 				JPanel grillep = new JPanel(new GridLayout(3, 1));
 					    
@@ -151,7 +151,7 @@ public class GUI_Commande extends JFrame implements ActionListener {
 						        this.getContentPane().add(BorderLayout.SOUTH,pos2);
 						        pos2.setPreferredSize(new Dimension(0,200));
 						        
-						        // Grande fenêtre
+						        // Grande fenï¿½tre
 						        
 						        
 				 JPanel biggest = new JPanel(new GridLayout(1, 3));
@@ -205,7 +205,7 @@ public class GUI_Commande extends JFrame implements ActionListener {
 			    naine.setFocusable(false);        
 			    humaine.setFocusable(false);  
 			    ogresse.setFocusable(false);
-		        naine.setForeground(Color.black); // couleur écriture boutton
+		        naine.setForeground(Color.black); // couleur ï¿½criture boutton
 		        naine.setFont(new Font ("Cooper Black",Font.ITALIC,18));
 		        naine.setBackground(Color.WHITE);// couleur boutton
 		        humaine.setForeground(Color.black);
@@ -258,7 +258,7 @@ public class GUI_Commande extends JFrame implements ActionListener {
 	            
 	            if (naine.isSelected())
 	            {
-	                text.append("Taille : naine -3,33 € par pizza  \n");
+	                text.append("Taille : naine -3,33euros par pizza  \n");
 	                p -= (p*(1./3.));
 	            }
 	            else if (humaine.isSelected())
@@ -267,7 +267,7 @@ public class GUI_Commande extends JFrame implements ActionListener {
 	            }
 	            else if (ogresse.isSelected())
 	            {
-	                text.append("Taille : ogresse +3,33 € par pizza \n");
+	                text.append("Taille : ogresse +3,33euros par pizza \n");
 	                
 	                p +=(p*(1./3.)) ;
 	                
@@ -278,7 +278,7 @@ public class GUI_Commande extends JFrame implements ActionListener {
 	            //Pizza
 	            text.append("Pizza :  " + nosProduits[comboBox1.getSelectedIndex()] + "\n" );
 	            text.append("Nombre : " + quantitep[comboBox2.getSelectedIndex()] + "\n");
-	            text.append("Prix : " + c.getPrice(p) *q+ " € \n"  );
+	            text.append("Prix : " + c.getPrice(p) *q+ " euros \n"  );
 	            text.append( date = new SimpleDateFormat("E yyyy-MM-dd HH:mm:ss").format(new Date()));
 	            text.setEditable(false);
 	            confirmer.setVisible(true);
